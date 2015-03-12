@@ -1,5 +1,5 @@
 ##Create an Empty class named 'Person'
-
+Class Person
 
 
 
@@ -10,59 +10,55 @@
 
 ##Define three properties on that class 'name','age','birthdate'
 
+Class Person
 
+  def name
+  end
 
+  def age
+  end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+  def birthdate
+  end
 
 
 
 ##Define 'methods' that allow you to access and set all three of those properties, Do not use attribute accessor
-=begin
 
 
 
+def name
+  @name = nameVariable
+  end
 
+  def age
+    @age = ageVariable
+  end
 
-
-
-
-
-
-=end
-
+  def birthdate
+    @birthdate = birthdateVariable
+  end
 
 
 ##Explain what calling Person.new does
 =begin
 
-
-
-
-
-
+Person.new calls on the instance of a new Person object
 
 
 =end
 
 
-
-
 ##Create an initializer method that allows you do Person.new 'Amy Smith' , which initializes the  Person's name property
 
+class Person
 
+  def initialize
+    @first = "Amy Smith"
+  end
+  end
+
+   
 
 
 
@@ -76,7 +72,7 @@
 
 
 
-
+console.log(self)
 
 
 
